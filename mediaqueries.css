@@ -1,0 +1,210 @@
+
+/* start of media queries for setting images*/
+
+/* set desktop images here */
+@media only screen {
+    .s1 {
+      background: url("./resources/D/1.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    .s2 {
+      background: url("./resources/D/2.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    #snd {
+      text-align: left;
+      margin-left: 2em;
+      font-size: 4rem;
+    }
+    .s3 {
+      background: url("./resources/D/3.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    .s4 {
+      background: url("./resources/D/4.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    .s5 {
+      background: url("./resources/D/gallery.png");
+      background-size: cover;
+      background-color: #3d0b01;
+      background-size: 100% 100%;
+    }
+    .s6 {
+      background: url("./resources/D/map.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+  }
+  
+  /* set phone images here */
+  @media only screen and (max-width: 500px) {
+    .s1 {
+      background: url("./resources/P/1.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    .s2 {
+      background: url("./resources/P/2.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    #snd {
+      text-align: left;
+      margin-left: 2em;
+      font-size: 4rem;
+    }
+    .s3 {
+      background: url("./resources/P/3.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    .s4 {
+      background: url("./resources/P/4.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    .s5 {
+      background: url("./resources/P/gallery.png");
+      background-size: cover;
+    background-size: 100% 100%;
+    }
+    .s6 {
+      background: url("./resources/P/map.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    #gallery {
+      margin-bottom: -3px;
+    }
+  }
+  
+  /* set tablet portrait images here */
+  @media only screen and (min-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .s1 {
+      background: url("./resources/TAB_P/1.png");
+  
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    .s2 {
+      background: url("./resources/TAB_P/2.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    #snd {
+      text-align: left;
+      margin-left: 2em;
+      font-size: 4rem;
+    }
+    .s3 {
+      background: url("./resources/TAB_P/3.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    .s4 {
+      background: url("./resources/TAB_P/4.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    .s5 {
+      background: url("./resources/TAB_P/gallery.png");
+      background-size: cover;
+      background-color: #3d0b01;
+      background-size: 100% 100%;
+    }
+    .s6 {
+      background: url("./resources/TAB_P/map.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+  }
+  
+  /* set tablet landscape images here */
+  @media only screen and (min-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .s1 {
+      background: url("./resources/TAB_L/1.png");
+      background-size: cover;
+  
+      background-size: 100% 100%;
+    }
+    .s2 {
+      background: url("./resources/TAB_L/2.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    #snd {
+      text-align: left;
+      margin-left: 2em;
+      font-size: 4rem;
+    }
+    .s3 {
+      background: url("./resources/TAB_L/3.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    .s4 {
+      background: url("./resources/TAB_L/4.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    .s5 {
+      background: url("./resources/TAB_L/gallery.png");
+      background-size: cover;
+      
+      background-size: 100% 100%;
+    }
+    .s6 {
+      background: url("./resources/TAB_L/map.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+  }
+  
+  /* set desktop images here too*/
+  @media only screen 
+    and (min-width: 1200px){
+    .s1 {
+      background: url("./resources/D/1.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    .s2 {
+      background: url("./resources/D/2.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+  
+    #snd {
+      text-align: left;
+      margin-left: 2em;
+      font-size: 4rem;
+    }
+    .s3 {
+      background: url("./resources/D/3.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    .s4 {
+      background: url("./resources/D/4.png");
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+    .s5 {
+      background: url("./resources/D/gallery.png");
+      background-size: 100% 100%;
+      background-size: cover;
+    }
+    .s6 {
+      background: url("./resources/D/map.png"); /* change background of map here */
+      background-size: cover;
+      background-size: 100% 100%;
+    }
+  }
+  /* end of media queries for setting images */
+  
+  /* Media queries for responsiveness */
